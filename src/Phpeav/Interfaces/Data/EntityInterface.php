@@ -1,6 +1,10 @@
 <?php
 namespace Omnestek\Phpeav\Interfaces\OnticData;
 
+/**
+ * Interface EntityInterface
+ * @package Omnestek\Phpeav\Interfaces\OnticData
+ */
 interface EntityInterface
 {
     /**
