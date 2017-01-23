@@ -1,5 +1,5 @@
 <?php
-
+namespace Omnestek\Phpeav\Dto;
 /**
  * Created by PhpStorm.
  * User: oalvarado
@@ -8,5 +8,34 @@
  */
 class AttributeValueDto
 {
+    /**
+     * @var
+     */
+    protected $entityId;
+
+    /**
+     * @var
+     */
+    protected $entityTypeId;
+
+    /**
+     * @var
+     */
+    protected $attributeId;
+
+    /**
+     * @var
+     */
+    protected $attributesSetId;
+
+    /**
+     * @var
+     */
+    protected $value;
+
+    /**
+     * @var
+     */
+    protected $order;
 
 }

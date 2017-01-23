@@ -1,5 +1,5 @@
 <?php
-
+namespace Omnestek\Phpeav\Dto;
 /**
  * Created by PhpStorm.
  * User: oalvarado
