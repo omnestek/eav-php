@@ -2,6 +2,10 @@
 
 namespace Omnestek\Phpeav\Interfaces\MetaData;
 
+/**
+ * Interface AttributeInterface
+ * @package Omnestek\Phpeav\Interfaces\MetaData
+ */
 interface AttributeInterface
 {
     /**
