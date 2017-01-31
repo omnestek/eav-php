@@ -7,7 +7,7 @@ namespace Omnestek\Phpeav\Dto;
  * Date: 31/01/2017
  * Time: 12:17 AM
  */
-class EntityDecimalDto
+class EntityDecimalDto extends EntityDataAbstract
 {
     /**
      * @var float
