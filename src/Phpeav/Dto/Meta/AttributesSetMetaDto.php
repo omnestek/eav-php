@@ -2,10 +2,10 @@
 namespace Omnestek\Phpeav\Dto\Meta;
 
 /**
- * Class AttributesSetDeto
+ * Class AttributesSetMetaDto
  * @package Omnestek\Phpeav\Dto\Meta
  */
-class AttributesSetDto
+class AttributesSetMetaDto
 {
     /**
      * @var
@@ -36,7 +36,7 @@ class AttributesSetDto
     }
     /**
      * @param mixed $attributes_set_id
-     * @return AttributesSetDto
+     * @return AttributesSetMetaDto
      */
     public function setAttributesSetId($attributes_set_id)
     {
@@ -52,7 +52,7 @@ class AttributesSetDto
     }
     /**
      * @param mixed $attributes_entity_type_id
-     * @return AttributesSetDto
+     * @return AttributesSetMetaDto
      */
     public function setAttributesEntityTypeId($attributes_entity_type_id)
     {
@@ -68,7 +68,7 @@ class AttributesSetDto
     }
     /**
      * @param mixed $attributes_set_name
-     * @return AttributesSetDto
+     * @return AttributesSetMetaDto
      */
     public function setAttributesSetName($attributes_set_name)
     {
@@ -84,7 +84,7 @@ class AttributesSetDto
     }
     /**
      * @param mixed $attributes_set_description
-     * @return AttributesSetDto
+     * @return AttributesSetMetaDto
      */
     public function setAttributesSetDescription($attributes_set_description)
     {
@@ -100,7 +100,7 @@ class AttributesSetDto
     }
     /**
      * @param mixed $attributes_set_ddl_description
-     * @return AttributesSetDto
+     * @return AttributesSetMetaDto
      */
     public function setAttributesSetDdlDescription($attributes_set_ddl_description)
     {

@@ -7,7 +7,7 @@ namespace Omnestek\Phpeav\Dto;
  * Date: 30/01/2017
  * Time: 11:47 PM
  */
-abstract class EntityDataAbstract
+abstract class AttributeValueAbstract
 {
     /**
      * @var int
@@ -54,7 +54,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $value_id
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setValueId($value_id)
     {
@@ -72,7 +72,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $entity_id
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setEntityId($entity_id)
     {
@@ -90,7 +90,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $entity_type_id
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setEntityTypeId($entity_type_id)
     {
@@ -108,7 +108,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $attribute_id
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setAttributeId($attribute_id)
     {
@@ -126,7 +126,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $attributes_set_id
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setAttributesSetId($attributes_set_id)
     {
@@ -144,7 +144,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $order
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setOrder($order)
     {
@@ -162,7 +162,7 @@ abstract class EntityDataAbstract
 
     /**
      * @param int $active
-     * @return EntityDataAbstract
+     * @return AttributeValueAbstract
      */
     public function setActive($active)
     {

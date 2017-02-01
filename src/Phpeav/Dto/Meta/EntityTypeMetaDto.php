@@ -2,10 +2,10 @@
 namespace Omnestek\Phpeav\Dto\Meta;
 
 /**
- * Class EntityTypeDto
+ * Class EntityTypeMetaDto
  * @package Omnestek\Phpeav\Dto\Meta
  */
-class EntityTypeDto
+class EntityTypeMetaDto
 {
     /**
      * @var
@@ -44,7 +44,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_id
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeId($entity_type_id)
     {
@@ -60,7 +60,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_code
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeCode($entity_type_code)
     {
@@ -76,7 +76,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_description
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeDescription($entity_type_description)
     {
@@ -92,7 +92,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_table
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeTable($entity_type_table)
     {
@@ -108,7 +108,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_status
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeStatus($entity_type_status)
     {
@@ -124,7 +124,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_value_table_prefix
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeValueTablePrefix($entity_type_value_table_prefix)
     {
@@ -140,7 +140,7 @@ class EntityTypeDto
     }
     /**
      * @param mixed $entity_type_ddl_description
-     * @return EntityTypeDto
+     * @return EntityTypeMetaDto
      */
     public function setEntityTypeDdlDescription($entity_type_ddl_description)
     {

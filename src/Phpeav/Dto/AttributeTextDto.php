@@ -5,17 +5,17 @@ namespace Omnestek\Phpeav\Dto;
 /**
  * User: @fabianjuarezmx
  * Date: 31/01/2017
- * Time: 12:17 AM
+ * Time: 10:55 PM
  */
-class EntityDecimalDto extends EntityDataAbstract
+class AttributeTextDto extends AttributeValueAbstract
 {
     /**
-     * @var float
+     * @var mixed - text
      */
     protected $value;
 
     /**
-     * @return float
+     * @return mixed
      */
     public function getValue()
     {
@@ -23,8 +23,8 @@ class EntityDecimalDto extends EntityDataAbstract
     }
 
     /**
-     * @param float $value
-     * @return EntityDecimalDto
+     * @param mixed $value
+     * @return AttributeTextDto
      */
     public function setValue($value)
     {

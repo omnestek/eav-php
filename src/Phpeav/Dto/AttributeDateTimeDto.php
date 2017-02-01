@@ -4,18 +4,18 @@ namespace Omnestek\Phpeav\Dto;
 
 /**
  * User: @fabianjuarezmx
- * Date: 31/01/2017
- * Time: 10:53 PM
+ * Date: 30/01/2017
+ * Time: 11:56 PM
  */
-class EntityVarcharDto extends EntityDataAbstract
+class AttributeDateTimeDto extends AttributeValueAbstract
 {
     /**
-     * @var string
+     * @var datetime string
      */
     protected $value;
 
     /**
-     * @return string
+     * @return datetime
      */
     public function getValue()
     {
@@ -23,8 +23,8 @@ class EntityVarcharDto extends EntityDataAbstract
     }
 
     /**
-     * @param string $value
-     * @return EntityVarcharDto
+     * @param datetime $value
+     * @return AttributeDateTimeDto
      */
     public function setValue($value)
     {

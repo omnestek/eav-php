@@ -4,18 +4,18 @@ namespace Omnestek\Phpeav\Dto;
 
 /**
  * User: @fabianjuarezmx
- * Date: 30/01/2017
- * Time: 11:56 PM
+ * Date: 31/01/2017
+ * Time: 10:56 PM
  */
-class EntityDateTimeDto extends EntityDataAbstract
+class AttributeBlobDto extends AttributeValueAbstract
 {
     /**
-     * @var datetime string
+     * @var mixed - blob
      */
     protected $value;
 
     /**
-     * @return datetime
+     * @return mixed
      */
     public function getValue()
     {
@@ -23,8 +23,8 @@ class EntityDateTimeDto extends EntityDataAbstract
     }
 
     /**
-     * @param datetime $value
-     * @return EntityDateTimeDto
+     * @param mixed $value
+     * @return AttributeBlobDto
      */
     public function setValue($value)
     {

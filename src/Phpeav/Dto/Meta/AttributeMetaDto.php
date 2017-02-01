@@ -2,10 +2,10 @@
 namespace Omnestek\Phpeav\Dto\Meta;
 
 /**
- * Class AttributeDto
+ * Class AttributeMetaDto
  * @package Omnestek\Phpeav\Dto\Meta
  */
-class AttributeDto
+class AttributeMetaDto
 {
     /**
      * @var
@@ -96,7 +96,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_id
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeId($attribute_id)
     {
@@ -112,7 +112,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_entity_type_id
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeEntityTypeId($attribute_entity_type_id)
     {
@@ -128,7 +128,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_attribute_set_id
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeAttributeSetId($attribute_attribute_set_id)
     {
@@ -144,7 +144,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_name
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeName($attribute_name)
     {
@@ -160,7 +160,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_description
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeDescription($attribute_description)
     {
@@ -176,7 +176,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_type
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeType($attribute_type)
     {
@@ -192,7 +192,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_table
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeTable($attribute_table)
     {
@@ -208,7 +208,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_status
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeStatus($attribute_status)
     {
@@ -224,7 +224,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_set
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeSet($attribute_set)
     {
@@ -240,7 +240,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_html_class
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeHtmlClass($attribute_html_class)
     {
@@ -256,7 +256,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_html_input
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeHtmlInput($attribute_html_input)
     {
@@ -272,7 +272,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_html_label
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeHtmlLabel($attribute_html_label)
     {
@@ -288,7 +288,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_visible
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeVisible($attribute_visible)
     {
@@ -304,7 +304,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_required
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeRequired($attribute_required)
     {
@@ -320,7 +320,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_searchable
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeSearchable($attribute_searchable)
     {
@@ -336,7 +336,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_is_unique
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeIsUnique($attribute_is_unique)
     {
@@ -352,7 +352,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_is_encrypted
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeIsEncrypted($attribute_is_encrypted)
     {
@@ -368,7 +368,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_sort
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeSort($attribute_sort)
     {
@@ -384,7 +384,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_ddl_description
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeDdlDescription($attribute_ddl_description)
     {
@@ -400,7 +400,7 @@ class AttributeDto
     }
     /**
      * @param mixed $attribute_is_array
-     * @return AttributeDto
+     * @return AttributeMetaDto
      */
     public function setAttributeIsArray($attribute_is_array)
     {
