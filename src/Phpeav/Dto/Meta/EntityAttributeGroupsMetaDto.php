@@ -1,13 +1,13 @@
 <?php
 
-namespace Omnestek\Phpeav\Dto;
+namespace Omnestek\Phpeav\Dto\Meta;
 
 /**
  * User: @fabianjuarezmx
  * Date: 30/01/2017
  * Time: 11:16 PM
  */
-class EntityAttributeGroupsDto
+class EntityAttributeGroupsMetaDto
 {
     /**
      * @var int
@@ -44,7 +44,7 @@ class EntityAttributeGroupsDto
 
     /**
      * @param int $entity_attribute_group_id
-     * @return EntityAttributeGroupsDto
+     * @return EntityAttributeGroupsMetaDto
      */
     public function setEntityAttributeGroupId($entity_attribute_group_id)
     {
@@ -62,7 +62,7 @@ class EntityAttributeGroupsDto
 
     /**
      * @param int $entity_attribute_group_entity_type_id
-     * @return EntityAttributeGroupsDto
+     * @return EntityAttributeGroupsMetaDto
      */
     public function setEntityAttributeGroupEntityTypeId($entity_attribute_group_entity_type_id)
     {
@@ -80,7 +80,7 @@ class EntityAttributeGroupsDto
 
     /**
      * @param string $entity_attribute_group_description
-     * @return EntityAttributeGroupsDto
+     * @return EntityAttributeGroupsMetaDto
      */
     public function setEntityAttributeGroupDescription($entity_attribute_group_description)
     {
@@ -98,7 +98,7 @@ class EntityAttributeGroupsDto
 
     /**
      * @param tinyint $entity_attribute_group_status
-     * @return EntityAttributeGroupsDto
+     * @return EntityAttributeGroupsMetaDto
      */
     public function setEntityAttributeGroupStatus($entity_attribute_group_status)
     {
@@ -116,7 +116,7 @@ class EntityAttributeGroupsDto
 
     /**
      * @param string $entity_attribute_group_ddl_description
-     * @return EntityAttributeGroupsDto
+     * @return EntityAttributeGroupsMetaDto
      */
     public function setEntityAttributeGroupDdlDescription($entity_attribute_group_ddl_description)
     {

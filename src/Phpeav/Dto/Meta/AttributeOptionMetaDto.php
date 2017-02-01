@@ -1,13 +1,13 @@
 <?php
 
-namespace Omnestek\Phpeav\Dto;
+namespace Omnestek\Phpeav\Dto\Meta;
 
 /**
  * User: @fabianjuarezmx
  * Date: 30/01/2017
  * Time: 10:58 PM
  */
-class AttributeOptionDto
+class AttributeOptionMetaDto
 {
     /**
      * @var int
@@ -44,7 +44,7 @@ class AttributeOptionDto
 
     /**
      * @param int $attribute_option_id
-     * @return AttributeOptionDto
+     * @return AttributeOptionMetaDto
      */
     public function setAttributeOptionId($attribute_option_id)
     {
@@ -62,7 +62,7 @@ class AttributeOptionDto
 
     /**
      * @param int $attribute_option_attribute_id
-     * @return AttributeOptionDto
+     * @return AttributeOptionMetaDto
      */
     public function setAttributeOptionAttributeId($attribute_option_attribute_id)
     {
@@ -80,7 +80,7 @@ class AttributeOptionDto
 
     /**
      * @param string $attribute_value
-     * @return AttributeOptionDto
+     * @return AttributeOptionMetaDto
      */
     public function setAttributeValue($attribute_value)
     {
@@ -98,7 +98,7 @@ class AttributeOptionDto
 
     /**
      * @param int $attribute_option_sort
-     * @return AttributeOptionDto
+     * @return AttributeOptionMetaDto
      */
     public function setAttributeOptionSort($attribute_option_sort)
     {
@@ -116,7 +116,7 @@ class AttributeOptionDto
 
     /**
      * @param tinyint $attribute_active
-     * @return AttributeOptionDto
+     * @return AttributeOptionMetaDto
      */
     public function setAttributeActive($attribute_active)
     {

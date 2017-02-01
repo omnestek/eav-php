@@ -1,13 +1,13 @@
 <?php
 
-namespace Omnestek\Phpeav\Dto;
+namespace Omnestek\Phpeav\Dto\Meta;
 
 /**
  * User: @fabianjuarezmx
  * Date: 30/01/2017
  * Time: 11:29 PM
  */
-class EntityAttributeGroupDto
+class EntityAttributeGroupMetaDto
 {
     /**
      * @var int
@@ -49,7 +49,7 @@ class EntityAttributeGroupDto
 
     /**
      * @param int $entity_attribute_group_id
-     * @return EntityAttributeGroupDto
+     * @return EntityAttributeGroupMetaDto
      */
     public function setEntityAttributeGroupId($entity_attribute_group_id)
     {
@@ -67,7 +67,7 @@ class EntityAttributeGroupDto
 
     /**
      * @param int $entity_attribute_id
-     * @return EntityAttributeGroupDto
+     * @return EntityAttributeGroupMetaDto
      */
     public function setEntityAttributeId($entity_attribute_id)
     {
@@ -85,7 +85,7 @@ class EntityAttributeGroupDto
 
     /**
      * @param int $entity_group_id
-     * @return EntityAttributeGroupDto
+     * @return EntityAttributeGroupMetaDto
      */
     public function setEntityGroupId($entity_group_id)
     {
@@ -103,7 +103,7 @@ class EntityAttributeGroupDto
 
     /**
      * @param int $entity_group_order
-     * @return EntityAttributeGroupDto
+     * @return EntityAttributeGroupMetaDto
      */
     public function setEntityGroupOrder($entity_group_order)
     {
@@ -121,7 +121,7 @@ class EntityAttributeGroupDto
 
     /**
      * @param string $entity_group_status
-     * @return EntityAttributeGroupDto
+     * @return EntityAttributeGroupMetaDto
      */
     public function setEntityGroupStatus($entity_group_status)
     {
@@ -139,7 +139,7 @@ class EntityAttributeGroupDto
 
     /**
      * @param int $entity_group_entity_type_id
-     * @return EntityAttributeGroupDto
+     * @return EntityAttributeGroupMetaDto
      */
     public function setEntityGroupEntityTypeId($entity_group_entity_type_id)
     {
