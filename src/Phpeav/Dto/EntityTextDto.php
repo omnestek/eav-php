@@ -7,15 +7,15 @@ namespace Omnestek\Phpeav\Dto;
  * Date: 31/01/2017
  * Time: 10:55 PM
  */
-class EntityTextDto
+class EntityTextDto extends EntityDataAbstract
 {
     /**
-     * @var text
+     * @var mixed - text
      */
     protected $value;
 
     /**
-     * @return text
+     * @return mixed
      */
     public function getValue()
     {
@@ -23,7 +23,7 @@ class EntityTextDto
     }
 
     /**
-     * @param text $value
+     * @param mixed $value
      * @return EntityTextDto
      */
     public function setValue($value)
