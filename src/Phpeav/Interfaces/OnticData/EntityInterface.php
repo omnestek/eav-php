@@ -1,5 +1,6 @@
 <?php
 namespace Omnestek\Phpeav\Interfaces\OnticData;
+use Omnestek\Phpeav\Dto\EntityDto;
 
 /**
  * Interface EntityInterface
@@ -61,4 +62,10 @@ interface EntityInterface
      * @return mixed
      */
     public function getAttributes($entityTypeId, $entityId);
+
+    /**
+     * @param EntityDto $entityDto
+     * @return mixed
+     */
+    public function saveEntity(EntityDto $entityDto);
 }

@@ -1,5 +1,6 @@
 <?php
 namespace Omnestek\Phpeav\Interfaces\OnticData;
+use Omnestek\Phpeav\Dto\AttributeValueAbstract;
 
 /**
  * Class AttributeValueInterface
@@ -22,4 +23,12 @@ interface AttributeValueInterface
      * @return mixed
      */
     public function getAttributeValueByName($entityType, $entityId, $attributeName);
+
+    /**
+     * @param $entityType
+     * @param $entityId
+     * @param AttributeValueAbstract $attribute
+     * @return mixed
+     */
+    public function saveAttribute($entityType, $entityId, AttributeValueAbstract $attribute);
 }
