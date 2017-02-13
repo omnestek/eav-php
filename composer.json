@@ -1,0 +1,8 @@
+{
+  "name" : "omnestek/phpeav",
+  "type" : "library",
+  "description" : "Eav implementation por PHP",
+  "require" : {
+    "php" : ">=5.5.0"
+  }
+}

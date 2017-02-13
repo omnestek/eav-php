@@ -1,6 +1,10 @@
 <?php
 namespace Omnestek\Phpeav\Interfaces\OnticData;
 
+/**
+ * Interface EntityInterface
+ * @package Omnestek\Phpeav\Interfaces\OnticData
+ */
 interface EntityInterface
 {
     /**
@@ -37,17 +41,24 @@ interface EntityInterface
      */
 
     public function getParent($entityTypeId, $entityId);
+
     /**
      * Gets all the childs related in the same data table
      * @param $entityTypeId
      * @param $entityId
      * @return mixed
      */
-
     public function getChilds($entityTypeId, $entityId);
+
     /**
      * @return mixed
      */
-
     public function getEntities($entityType);
+
+    /**
+     * @param $entityTypeId
+     * @param $entityId
+     * @return mixed
+     */
+    public function getAttributes($entityTypeId, $entityId);
 }
